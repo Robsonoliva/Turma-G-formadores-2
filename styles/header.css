@@ -6,6 +6,7 @@
     background-position: center;
     display: inline-block;
 }
+
 .cabeçalho{
     background-color: var(--branco);
     display: flex;
@@ -36,6 +37,7 @@
 
 .lista-menu__titulo{
     color: var(--amarelo);
+    font-weight: 700;
 }
 .lista-menu__link{
     background: var(--roxo-degrade);
@@ -43,6 +45,9 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase;
+}
+.container__botao{
+    display: none;
 }
 
 
